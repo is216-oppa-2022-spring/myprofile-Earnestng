@@ -1,0 +1,65 @@
+body{
+    background-color: lightblue;
+}
+div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 10px auto 20px; */
+}
+
+img{
+    /* border: 2px dashed blue;
+    background-color: yellow; */
+    width: 100%;
+}
+
+.intro{
+    border: 10px ridge rgb(7, 7, 172);
+    margin: 10px;
+    font-family: 'Script MT';
+    font-size: large;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+
+.profile{
+    display: flex;
+}
+
+.flex-child{
+    flex: 1;
+    margin: 10px;
+    
+}
+
+.flex-child:last-child{
+    border: 10px ridge rgb(0, 17, 255);
+    padding: 15px;
+    background-color: blanchedalmond;
+    border: 10px ridge brown;
+    border-radius: 20px;
+}
+.flex-child:first-child{
+    border: 10px ridge brown;
+    background-color: rgb(105, 44, 0);
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+.headers{
+    text-decoration: underline;
+    font-family: 'Script MT';
+    font-size: 30px;
+}
+.description{
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Script MT';
+}
+.video{
+    border: 5px solid red;
+    background-color: black;
+    margin: 10px;
+    height: 400px;
+}
